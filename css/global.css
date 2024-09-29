@@ -1,0 +1,44 @@
+
+body {
+    background-color: #141414;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #181818;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 240px;
+    background-color: #181818;
+    padding-top: 60px;
+    transition: width 0.3s;
+}
+
+.sidebar a {
+    padding: 10px 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #FFB32C;
+}
+
+.sidebar i{
+    margin-left: 2%;
+    margin-right: 5%;
+}
+
+.content {
+    margin-left: 260px; /* Pode ser ajustado se a largura da sidebar mudar */
+    padding: 20px;
+}
